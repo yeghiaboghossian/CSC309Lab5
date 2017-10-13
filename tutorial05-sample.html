@@ -13,8 +13,8 @@
       }
 
       header {
-        background: purple;
-        height: 100px;
+        background: black;
+        height: 200px;
       }
 
       h1 {
@@ -27,7 +27,7 @@
       article {
         padding: 10px;
         margin: 10px;
-        background: aqua;
+        background: white;
       }
 
       /* Add your flexbox CSS below here */
@@ -43,13 +43,13 @@
       article:nth-of-type(3) {
         flex: 3 200px;
         display: flex;
-        flex-flow: column;
+        flex-direction: column;
       }
 
       article:nth-of-type(3) div:first-child {
         flex: 1 100px;
         display: flex;
-        flex-flow: row wrap;
+        flex-flow: column;
         align-items: center;
         justify-content: space-around;
       }
